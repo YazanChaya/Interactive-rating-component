@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="master.css" />
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="card">
+        <div class="star">
+          <img src="images/icon-star.svg" alt="this is star" />
+        </div>
+        <div class="text">
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <ul class="rating">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+        <button class="submit" onclick="addRating()">Submit</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
